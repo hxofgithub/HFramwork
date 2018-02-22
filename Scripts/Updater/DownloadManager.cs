@@ -86,7 +86,7 @@ public class DownloadManager : MonoBehaviour
 
     private void OnDestroy()
     {
-
+        StopAllCoroutines();
     }
 
     private static object lockObject = new object();

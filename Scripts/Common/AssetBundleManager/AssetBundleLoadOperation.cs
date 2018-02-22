@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-namespace HFramwork
+namespace HFramework
 {
     public abstract class AssetBundleLoadOperation : IEnumerator
     {

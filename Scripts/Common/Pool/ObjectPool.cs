@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using DelegateDefine;
 
-namespace HFramwork
+namespace HFramework.Pools
 {
+    using Core.Delegates;
     public class ObjectPool<T>
     {
         public ObjectPool(DelegateFunc<T> action, DelegateAction<T> release)

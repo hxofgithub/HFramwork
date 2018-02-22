@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace HFramwork
+namespace HFramework
 {
+    using CollectionExtensions.Dictionary;
+
     public class StateManager : ISingleton
     {
         #region singleton

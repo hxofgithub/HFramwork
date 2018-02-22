@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEditor;
 using System.Collections.Generic;
 using System.Text;
-using HFramwork;
+using HFramework;
 
 public class MD5Menu
 {
@@ -13,7 +13,7 @@ public class MD5Menu
     {
         try
         {
-            DirectoryInfo d = new DirectoryInfo(Application.dataPath + "/AssetBundles/" + HFramwork.AssetBundleUtils.GetPlatformName());
+            DirectoryInfo d = new DirectoryInfo(Application.dataPath + "/AssetBundles/" + HFramework.AssetBundleUtils.GetPlatformName());
             Dictionary<string,string> _md5Dict = new Dictionary<string, string>();
 
             EditorUtility.DisplayProgressBar("Make MD5, Hold on!", "", 0);
@@ -82,7 +82,7 @@ public class MD5Menu
 
     public static string FileName
     {
-        get{ return HFramwork.AssetBundleUtils.GetDocumentPath() + MD5Utils.MD5FileName; }
+        get{ return HFramework.AssetBundleUtils.GetDocumentPath() + MD5Utils.MD5FileName; }
     }
 
 }

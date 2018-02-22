@@ -3,7 +3,7 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace HFramwork
+namespace HFramework
 {
     public class MD5Utils
     {

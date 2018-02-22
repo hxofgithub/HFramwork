@@ -1,4 +1,4 @@
-﻿namespace DelegateDefine
+﻿namespace HFramework.Core.Delegates
 {
     public delegate void DelegateAction();
     public delegate void DelegateAction<T>(T arg);

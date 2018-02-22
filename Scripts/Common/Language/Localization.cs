@@ -1,11 +1,13 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace HFramwork
+namespace HFramework.ILocalization
 {
+    using Core.Delegates;
+
     public static class Localization
     {
-        public static DelegateDefine.DelegateAction OnLocalization;
+        public static DelegateAction OnLocalization;
 
         public static void SetDefaultLanguage()
         {

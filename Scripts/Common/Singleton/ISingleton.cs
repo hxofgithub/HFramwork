@@ -1,4 +1,4 @@
-﻿namespace HFramwork
+﻿namespace HFramework
 {
     public interface ISingleton
     {

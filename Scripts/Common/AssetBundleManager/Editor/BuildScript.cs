@@ -4,7 +4,7 @@ using UnityEditor;
 using System.Collections.Generic;
 using System.IO;
 
-namespace HFramwork
+namespace HFramework
 {
     public class BuildScript
     {

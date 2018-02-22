@@ -4,7 +4,7 @@ using UnityEditor;
 using UnityEngine;
 using System.IO;
 
-namespace HFramwork
+namespace HFramework
 {
     public class GenScriptable
     {

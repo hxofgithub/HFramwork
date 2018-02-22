@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
-using HFramwork;
-
+using HFramework;
+using HFramework.CollectionExtensions.Dictionary;
 
 public abstract class ResourceManager<T, ManagerT> : MonoBehaviour where ManagerT : ResourceManager<T, ManagerT> where T : Object
 {

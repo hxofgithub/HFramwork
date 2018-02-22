@@ -7,7 +7,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace HFramwork
+namespace HFramework
 {
     /// <summary>
     /// This improved version of the System.Collections.Generic.List that doesn't release the buffer on Clear(),

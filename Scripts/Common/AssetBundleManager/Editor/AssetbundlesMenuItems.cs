@@ -1,6 +1,6 @@
 ﻿#if UNITY_EDITOR
 using UnityEditor;
-namespace HFramwork
+namespace HFramework
 {
 	public class AssetBundlesMenuItems
 	{

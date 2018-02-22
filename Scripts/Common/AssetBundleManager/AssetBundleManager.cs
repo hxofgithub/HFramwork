@@ -20,7 +20,7 @@ using System.Collections.Generic;
 	7.	AssetBundle variants. A prioritized list of variants that should be used if the asset bundle with that variant exists, first variant in the list is the most preferred etc.
 */
 
-namespace HFramwork
+namespace HFramework
 {
     // Loaded assetBundle contains the references count which can be used to unload dependent assetBundles automatically.
     public class LoadedAssetBundle : UnSafeARC

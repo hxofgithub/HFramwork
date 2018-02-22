@@ -1,7 +1,8 @@
-﻿namespace HFramwork
+﻿namespace HFramework.Messages
 {
     using System;
     using System.Collections.Generic;
+    using CollectionExtensions.Dictionary;
 
     public class Messenger
     {

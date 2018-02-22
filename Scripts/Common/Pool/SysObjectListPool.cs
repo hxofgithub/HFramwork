@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace HFramwork
+namespace HFramework.Pools
 {
     public class SysObjectListPool<T>
     {

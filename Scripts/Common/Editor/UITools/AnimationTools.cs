@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEditor;
 using System.IO;
-namespace HFramwork
+namespace HFramework
 {
     public class AnimationTools
     {
